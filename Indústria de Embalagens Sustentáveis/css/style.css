@@ -1,6 +1,8 @@
 
 
 .navbar {
+  display: flex;
+  justify-content: space-between;
   background-color: #2E7D32 !important; 
 }
 
@@ -23,5 +25,16 @@
 }
 
 .container-fluid{
-  
+  font-family:'Times New Roman', Times, serif;
+  margin: 0 auto;   
+  text-align: center;
+  padding-top: 3vh;
+}
+.logo-eco{
+  width: 90px;
+  padding-bottom: 10px;
+}
+#navbarNav{
+  font-size: 1.3rem;
+  padding-left: 30px;
 }
